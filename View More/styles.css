@@ -1,0 +1,107 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #F9FAFB;
+    color: #1F2937;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5%;
+    background-color: #1E3A8A;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+    color: #F9FAFB;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+
+/* Home Section Styles */
+#hero {
+    min-height: 100vh;
+    align-items: center;
+    padding: 30px 10%;
+    margin-top: 80px; /* To account for fixed navbar */
+}
+
+.aa{
+	margin-top: 20px;
+}
+
+.aa ul {
+	margin-left: 30px;
+	list-style-type: square;
+}
+
+.we {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.bb{
+	margin-top: 20px;
+}
+
+.skill-name{
+	margin-left: 0;
+	list-style-type: none;
+	margin-top: 15px;
+}
+
+.skill-tag{
+	margin-left: 50px;
+	list-style-type: square;
+}
+
+/* Simple Footer Styles */
+.footer-simple {
+    background-color: #1E3A8A;
+    color: #F9FAFB;
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-bottom p {
+    color: #E5E7EB;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.footer-bottom a {
+    color: #38BDF8;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
