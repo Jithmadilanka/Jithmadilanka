@@ -552,8 +552,8 @@ body {
     color: white;
 }
 
-.telegram-box .info-icon {
-    background-color: #0088cc;
+.github-box .info-icon {
+    background-color: #24292e; /* GitHub's brand color */
     color: white;
 }
 
