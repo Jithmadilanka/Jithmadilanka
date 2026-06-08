@@ -379,7 +379,7 @@ body {
     width: 80%;
     max-width: 500px;
 	border-radius: 8%;
-    border: 0px solid #1E3A8A;
+    border: 0;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
     transition: all 0.3s ease;
 }
